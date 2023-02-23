@@ -64,8 +64,7 @@ Conclusão
 Este foi um tutorial simples sobre como conectar ao SQLite em Python usando a biblioteca sqlite3. Lembre-se de que este é apenas um exemplo básico e que você pode fazer muito mais com o SQLite em Python, como executar transações, usar o método executemany() para executar várias consultas em uma única chamada e muito mais. Consulte a documentação da biblioteca sqlite3 para obter mais informações.
 
 
-
-
+##############################################################################################################################################################
 
 
 Como conectar ao MongoDB em Python
@@ -76,15 +75,14 @@ Antes de começar, você precisa ter o Python instalado em seu computador. Se vo
 
 Além disso, você precisa ter a biblioteca pymongo instalada. Você pode instalá-la usando o pip, o gerenciador de pacotes do Python. Abra o terminal ou prompt de comando e digite o seguinte comando:
 
-Copy code
+
 pip install pymongo
 Conectando ao banco de dados
 Para se conectar ao banco de dados MongoDB em Python, você precisa criar uma conexão usando a classe MongoClient(), que está disponível na biblioteca pymongo. Você precisa passar o URI do banco de dados como parâmetro para a classe MongoClient().
 
 Aqui está um exemplo:
 
-python
-Copy code
+
 import pymongo
 
 # Cria a conexão com o banco de dados
@@ -99,8 +97,7 @@ Uma vez conectado ao banco de dados, você pode executar operações CRUD usando
 
 Aqui está um exemplo de como criar um documento na coleção "exemplo":
 
-python
-Copy code
+
 # Seleciona a coleção
 colecao = banco_de_dados.exemplo
 
@@ -116,8 +113,6 @@ Este exemplo cria um documento com dois campos ("nome" e "idade") e o insere na 
 
 Agora, vamos atualizar o documento que acabamos de criar:
 
-python
-Copy code
 # Atualiza o documento
 filtro = {"nome": "João"}
 novo_valor = {"$set": {"idade": 35}}
