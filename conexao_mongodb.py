@@ -1,4 +1,4 @@
-import pymongo
+import pymongo 
 
 # Cria a conexão com o MongoDB
 client = pymongo.MongoClient("mongodb://localhost:27017/")
