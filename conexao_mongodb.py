@@ -14,4 +14,4 @@ documento = {"nome": "Leonardo", "idade": 26}
 colecao.insert_one(documento)
 
 # Fecha a conexão com o MongoDB
-client.close()
+client.close() 
